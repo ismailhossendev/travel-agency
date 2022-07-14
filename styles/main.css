@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+
+.h-container{
+    margin:0 5%;
+}
+.heros{
+    height: 80vh;
+    background: #F0C53E;
+}
+.bgwave{
+    position: relative;
+}
+.hero{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+}
+.h-left{
+    width: 40%;
+}
+.h-left h1{
+    font-size: 5.4rem;
+}
+.h-left p{
+    font-size: 2.4rem;
+    padding: 30px 0;
+}
+.h-left a{
+    font-size: 2.4rem;
+    text-decoration: none;
+}
+
+
+.h-left i{
+    position:relative;
+    font-size: 6rem;
+    color: #fff;
+    top: 15px;
+    left: 20px;
+    margin-right: 25px;
+}
+.bgwave{
+    z-index: 0;
+}
+
+.h-right{
+    width: 60%;
+    height: 80%;
+    padding: 30px;
+    background: url(../images/h-l-bg.png);
+    background-repeat: no-repeat;
+    background-size: 700px 650px;
+    background-position: right;
+    z-index: 1;
+}
+.k250{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+
+    position: relative;
+    left: 200px;
+    top: 120px;
+    
+}
+.k250 i{
+    font-size: 5rem;
+    margin: 15px 0 15px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #EE5060;
+    color: #fff;
+}
+.k250-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: center;
+}
+.h-right h3{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.h-right p{
+    font-size: 2rem;
+}
+.u-trips{
+    display: flex;
+    width: 320px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    position: relative;
+    top: 320px;
+    left: 250px;
+    backdrop-filter: blur(20px);
+}
+.u-trips i{
+    font-size: 5rem;
+    margin: 15px 0 60px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #EE5060;
+    color: #fff;
+}
+.u-t-text{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 20px 20px;
+
+}
+.u-t-text a{
+    padding: 10px 45px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    background: #B25A59;
+    border-radius: 80px;
+    margin-top: 10px;
+}
