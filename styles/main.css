@@ -3,17 +3,16 @@
     padding: 0;
     font-size: 62.5%;
 }
-
+.container{
+    margin: 0 10%;
+}
 
 .h-container{
     margin:0 5%;
 }
 .heros{
-    height: 80vh;
+    height: 85vh;
     background: #F0C53E;
-}
-.bgwave{
-    position: relative;
 }
 .hero{
     display: flex;
@@ -22,6 +21,7 @@
 }
 .h-left{
     width: 40%;
+    z-index: 1;
 }
 .h-left h1{
     font-size: 5.4rem;
@@ -46,6 +46,8 @@
 }
 .bgwave{
     z-index: 0;
+    position: relative;
+    top: -320px;
 }
 
 .h-right{
@@ -124,4 +126,43 @@
     background: #B25A59;
     border-radius: 80px;
     margin-top: 10px;
+}
+.spacher1{
+    height: 180px;
+}
+
+
+.p-tour{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p-tour h2{
+    font-size: 3.6rem;
+    margin-top: 50px;
+}
+.p-tour p{
+    font-size: 2.4rem;
+    width: 800px;
+    margin: 20px 0;
+}
+
+.p-t-img{
+    display: flex;
+}
+.p-t-img img {
+    height: 430px;
+    width: 450px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.p-t-i-box{
+    text-align: center;
+    height: 380px;
+    width: 450px;
+    margin: 20px;
+}
+.p-t-i-box p{
+    display: inline;
 }
